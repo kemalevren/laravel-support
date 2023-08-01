@@ -1,5 +1,5 @@
 {
-    "name": "rinvex/laravel-support",
+    "name": "kemalevren/laravel-support",
     "description": "Rinvex common support helpers, contracts, and traits required by various Rinvex packages. Validator functionality, and basic controller included out-of-the-box.",
     "type": "library",
     "keywords": [
@@ -59,12 +59,12 @@
             "src/Support/helpers.php"
         ],
         "psr-4": {
-            "Rinvex\\Support\\": "src/"
+            "kemalevren\\Support\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Rinvex\\Support\\Tests\\": "tests"
+            "kemalevren\\Support\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -78,7 +78,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Rinvex\\Support\\Providers\\SupportServiceProvider"
+                "kemalevren\\Support\\Providers\\SupportServiceProvider"
             ]
         }
     },
